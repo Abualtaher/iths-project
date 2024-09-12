@@ -24,12 +24,21 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
+    background-position: 50% 50%; 
 }
 
-nav{
+#container{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+#container nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: antiquewhite;   
+    background-color: rgba(116, 28, 4, 0.27); 
+    color: white; 
+    position: sticky; 
 }
