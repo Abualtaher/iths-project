@@ -5,7 +5,7 @@
 }
 body{
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1rem;
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-areas: 
@@ -39,14 +39,14 @@ header{
 }
 
 #container nav{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-between;
-    height: 40px;
+    height: 70px;
+    padding: 10px;
     background-color: rgba(116, 28, 4, 0.27); 
     color: white; 
     position: sticky; 
-    z-index: -1;
     
 }
 
@@ -64,3 +64,4 @@ header{
 .nav-cont a:hover {
     color: rgba(240, 255, 255, 0.535);
 }
+
