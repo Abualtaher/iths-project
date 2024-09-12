@@ -57,3 +57,7 @@ header{
     color: white;
     text-decoration: none;
 }
+
+.nav-cont a:hover {
+    color: rgba(240, 255, 255, 0.535);
+}
