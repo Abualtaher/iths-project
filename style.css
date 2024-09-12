@@ -13,7 +13,7 @@ body{
     'main'
     'footer'
     ;
-    height: 100vh;
+    
     background-color: rgb(244, 240, 240);
 }
 header{
@@ -184,11 +184,20 @@ main{
 }
 .contact{
     width: 100%;
-    height: 100px;
+    height: auto;
     background-color: #c32a04;
     color: white;
     padding: 10px;
     text-align: center;
+}
+input {
+    display: block;
+    margin: 10px;
+}
+
+textarea{
+    display: block;
+    margin: 10px;
 }
 
 footer{
