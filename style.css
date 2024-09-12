@@ -32,13 +32,28 @@ header{
     position: sticky;
     top: 0;
     overflow: hidden;
+    margin: 0 1rem;
+    position: sticky;
 }
 
 #container nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 40px;
     background-color: rgba(116, 28, 4, 0.27); 
     color: white; 
     position: sticky; 
+    z-index: -1;
+    
+}
+
+.nav-cont {
+    display: inline;
+    margin-left: 2em;
+    color: white;  
+}
+.nav-cont a {
+    color: white;
+    text-decoration: none;
 }
