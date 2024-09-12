@@ -18,24 +18,18 @@ header{
     grid-area: header;
 }
 
-.bg-img{
-    background-image: url("images/monkey-3507317_1280.jpg");
-    /* center and scale img */
+.bg-img {
+    background-image: url('img/monkey-3507317_1280.jpg');
     min-height: 380px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* positioning nav bar */
     position: relative;
 }
-
-
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: antiquewhite;
-    
-    
+    background-color: antiquewhite;   
 }
