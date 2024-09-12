@@ -14,13 +14,14 @@ body{
     'footer'
     ;
     height: 100vh;
+    background-color: rgb(244, 240, 240);
 }
 header{
     grid-area: header;
 }
-/* main{
+main{
     grid-area: main;
-} */
+}
 
 .bg-img {
     background-image: url('img/monkey-3507317_1280.jpg');
@@ -36,7 +37,7 @@ header{
 }
 
 #container{
-    position: sticky;
+    position: fixed;
     width: 100%;
     top: 0;
     overflow: hidden;
@@ -51,7 +52,7 @@ header{
     height: 70px;
     width: 100%;
     padding: 4px;
-    background-color: rgba(116, 28, 4, 0.27); 
+    background-color: #000000a8; 
     color: white; 
     position: sticky; 
     
@@ -76,6 +77,17 @@ header{
     display: none;
 }
 
+.logoG {
+    font-size: 1.5rem;
+    color: #ff4400;
+}
+.logoW{
+    display: block;
+    margin-left: 40px;
+    font-style: italic;
+    color: #ffffff;
+}
+
 /* #search-bar {
     margin-right: 5px;
 } */
@@ -83,25 +95,108 @@ header{
 .search{
     display: none;
 }
-/* .loda {
+.loda {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto ;
     grid-template-areas: 
-    'bass second';
+    'first  second'
+    'therd  fourth';
+    gap: 8px;
+    align-items: flex-start;
+    margin: 5px auto;
+    width: 70%;
+    
     
 }
-.bass{
-    grid-area: bass;
-    width: 20px;
+
+.collection{
+    text-align: center;
+    padding: 10px;
+    color: #6a040f;
+}
+
+.first{
+    grid-area: first;
     height: auto;
     border: 1px solid black;
-    object-fit: cover;
     
+}
+.bass {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
 }
 .second{
     grid-area: second;
-    width: 10px;
     height: auto;
     border: 1px solid black;
+}
+.guitar {
     object-fit: cover;
-} */
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.guitar-text {
+    text-align: center;
+    margin: 4px;
+    
+}
+
+.bass-text {
+    text-align: center;
+    margin: 4px;
+}
+/* other set of img */
+.therd{
+    grid-area: therd;
+    height: auto;
+    border: 1px solid black;
+    
+}
+.gibson {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.gibson-text {
+    text-align: center;
+    margin: 4px;
+}
+.fourth{
+    grid-area: fourth;
+    height: auto;
+    border: 1px solid black;
+}
+.guitar-tiger {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.tiger-text {
+    text-align: center;
+    margin: 4px; 
+}
+.contact{
+    width: 100%;
+    height: 100px;
+    background-color: #c32a04;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    margin: 10px 0 20px;
+    text-align: center;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+ 
