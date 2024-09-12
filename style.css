@@ -39,7 +39,7 @@ header{
 }
 
 #container nav{
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     height: 70px;
@@ -65,3 +65,10 @@ header{
     color: rgba(240, 255, 255, 0.535);
 }
 
+.keyword{
+    display: none;
+}
+
+.search{
+    display: none;
+}
