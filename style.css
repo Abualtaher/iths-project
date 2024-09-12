@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    font-size: 1rem;
     line-height: 1.5;
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -30,6 +31,7 @@ header{
 
 #container{
     position: sticky;
+    width: 100%;
     top: 0;
     overflow: hidden;
     margin: 0 1rem;
@@ -56,6 +58,7 @@ header{
 .nav-cont a {
     color: white;
     text-decoration: none;
+    display: none;
 }
 
 .nav-cont a:hover {
