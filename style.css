@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: poppins;
-    src: url(Poppins/Poppins-Medium.ttf);
+    font-family: new;
+    src: url(Nanum_Gothic/NanumGothic-Regular.ttf);
 }
 @font-face {
     font-family: bold;
@@ -17,7 +17,7 @@
     src: url(Caveat,Playwrite_CU/Caveat/Caveat-VariableFont_wght.ttf);
 }
 body{
-    font-family: poppins;
+    font-family: new;
     font-size: .8rem;
     line-height: 1rem;
     display: grid;
