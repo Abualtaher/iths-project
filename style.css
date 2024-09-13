@@ -137,15 +137,14 @@ h2{
 
 .first{
     grid-area: first;
-    height: auto;
     border: 1px solid black;
-    max-height:500px;
+    height:500px;
     align-items: center;
     /* transition:all 2s ease-in;  */
 }
 .bass {
     object-fit: cover;
-    width: 100px;
+    width: 130px;
     height: 320px;
     overflow: hidden;
     align-items: center;
@@ -153,11 +152,11 @@ h2{
 .second{
     grid-area: second;
     border: 1px solid black;
-    max-height: 500px;
+    height: 500px;
 }
 .guitar {
     object-fit: cover;
-    width: 120px;
+    width: 165px;
     height: 320px;
     padding: 5px;
     overflow: hidden;
@@ -172,13 +171,12 @@ h2{
 
 .bass-text {
     text-align: center;
-    margin: 5px;
+    margin: 4px;
     
 }
 /* other set of img */
 .therd{
     grid-area: therd;
-    width: 140px;
     height: 500px;
     border: 1px solid black;
     
@@ -191,7 +189,7 @@ h2{
 }
 .gibson-text {
     text-align: center;
-    margin: 5px;
+    margin: 4px;
 }
 .fourth{
     grid-area: fourth;
@@ -202,7 +200,6 @@ h2{
 .guitar-tiger {
     object-fit: cover;
     width: 180px;
-    padding: ;
     overflow: hidden;
 }
 
@@ -241,7 +238,7 @@ footer{
     .loda { 
         grid-template-areas: 
         'first  second therd  fourth';
-       gap: 20px; 
+       gap: 10px; 
        align-items: center;  
     }
     .nav-cont a{
@@ -257,8 +254,12 @@ footer{
         background-size: cover;
         margin-bottom: 20px;
     }
+    .first {
+        height: auto
+    }
     .bass{
-        height: 230px;
+        width: 250px;
+        height: 250px;
     }
 
     .collection{
@@ -269,20 +270,30 @@ footer{
         
     }
     .guitar{
-        height: 230px;
+        width: 250px;
+        height: 250px;
     }
 
     .bass:hover {
-        width: 70%;
+        width: 100%;
         height: 80%;
+    }
+
+    .second{
+        height: auto;
     }
 
     .guitar:hover {
         width: 80%;
         height: 100%;
     }
+
+    .therd{
+        height: auto;
+    }
     .gibson{
-        height: 220px;
+        width: 250px;
+        height: 250px;
         
        
     }
@@ -291,8 +302,13 @@ footer{
         height: 100%;
     }
 
+    .fourth{
+        height: auto;
+    }
+
     .guitar-tiger {
-        height: 220px;
+        width: 250px;
+        height: 250px;
     }
 
     .guitar-tiger:hover {
@@ -315,3 +331,4 @@ footer{
     }
 
  
+}
