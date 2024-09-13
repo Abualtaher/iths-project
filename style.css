@@ -130,9 +130,10 @@ h2{
 
 .collection{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     color: #6a040f;
     font-family: bold;
+    font-size: 1.8rem;
 }
 
 .first{
