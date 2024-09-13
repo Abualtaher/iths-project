@@ -107,7 +107,8 @@ main{
     align-items: flex-start;
     margin: 5px auto;
     width: 70%;
-    /* transition: .25s .25s ; */
+    transition:all 1s ease;
+    
     
     
 }
@@ -123,8 +124,8 @@ main{
     height: auto;
     border: 1px solid black;
     max-height:600px;
-    
-    
+    align-items: center;
+    /* transition:all 2s ease-in;  */
 }
 .bass {
     object-fit: cover;
@@ -194,10 +195,12 @@ main{
 .contact{
     width: 100%;
     height: auto;
-    background-color: #c32a04;
+    background-color: #5d1401;
     color: white;
     padding: 10px;
     text-align: center;
+    transition:all 1s ease;
+    
 }
 .wisaa {
     display: block;
@@ -244,7 +247,8 @@ footer{
         margin-bottom: 20px;
     }
     .loda {
-        margin-bottom: 30px;
+        margin-bottom: 70px;
+        
     }
     .guitar{
         height: 240px;
@@ -285,10 +289,11 @@ footer{
         align-items: center;
         margin-left: 470px;
         width: 40%;
-        border: none;
-        
+        border: none; 
     }
-   
-}
+    legend{
+        text-align: left;
+        margin-left: 148px;
+    }
 
  
