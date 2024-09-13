@@ -119,8 +119,13 @@ h2{
     gap: 8px;
     align-items: center;
     margin: 5px auto;
-    width: 70%;   
+    width: 90%;   
 }
+
+/* .loda img {
+    width: 180px;
+    height: 10px
+} */
 
 
 .collection{
@@ -134,24 +139,25 @@ h2{
     grid-area: first;
     height: auto;
     border: 1px solid black;
-    max-height:600px;
+    max-height:500px;
     align-items: center;
     /* transition:all 2s ease-in;  */
 }
 .bass {
     object-fit: cover;
-    width: 100%;
+    width: 100px;
     height: 320px;
     overflow: hidden;
+    align-items: center;
 }
 .second{
     grid-area: second;
     border: 1px solid black;
-    max-height: 600px;
+    max-height: 500px;
 }
 .guitar {
     object-fit: cover;
-    width: 100%;
+    width: 120px;
     height: 320px;
     padding: 5px;
     overflow: hidden;
@@ -160,6 +166,7 @@ h2{
 .guitar-text {
     text-align: center;
     margin: 4px;
+    overflow: hidden;
     
 }
 
@@ -171,14 +178,15 @@ h2{
 /* other set of img */
 .therd{
     grid-area: therd;
-    height: auto;
+    width: 140px;
+    height: 500px;
     border: 1px solid black;
-    max-height: 600px;
+    
     
 }
 .gibson {
     object-fit: cover;
-    width: 100%;
+    width: 170px;
     overflow: hidden;
 }
 .gibson-text {
@@ -187,15 +195,14 @@ h2{
 }
 .fourth{
     grid-area: fourth;
-    height: auto;
+    height: 500px;
     border: 1px solid black;
-    max-height: 600px;
+    
 }
 .guitar-tiger {
     object-fit: cover;
-    width: 100%;
-    height: 100%;
-    padding: 5px;
+    width: 180px;
+    padding: ;
     overflow: hidden;
 }
 
@@ -275,7 +282,7 @@ footer{
         height: 100%;
     }
     .gibson{
-        height: 240px;
+        height: 220px;
         
        
     }
@@ -285,7 +292,7 @@ footer{
     }
 
     .guitar-tiger {
-        height: 240px;
+        height: 220px;
     }
 
     .guitar-tiger:hover {
