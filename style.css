@@ -95,21 +95,19 @@ main{
     color: #ffffff;
 }
 
-
-
-.search{
-    display: none;
-}
 .loda {
     display: grid;
     grid-template-columns: auto ;
     grid-template-areas: 
     'first  second'
-    'therd  fourth';
+    'therd  fourth'
+    'fifth  six'
+    'seven  eaighyt';
     gap: 8px;
     align-items: flex-start;
     margin: 5px auto;
     width: 70%;
+    /* transition: .25s .25s ; */
     
     
 }
@@ -236,25 +234,34 @@ footer{
     }
     .bg-img{
         background-size: cover;
+        margin-bottom: 20px;
     }
     .bass{
         height: 230px;
+    }
+
+    .collection{
+        margin-bottom: 20px;
+    }
+    .loda {
+        margin-bottom: 30px;
     }
     .guitar{
         height: 240px;
     }
 
     .bass:hover {
-        width: 80%;
+        width: 70%;
         height: 80%;
     }
 
     .guitar:hover {
-        width: 100%;
+        width: 80%;
         height: 100%;
     }
     .gibson{
         height: 240px;
+        
        
     }
     .gibson:hover {
@@ -269,6 +276,17 @@ footer{
     .guitar-tiger:hover {
         width: 100%;
         height: 100%;
+    }
+
+    fieldset{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 470px;
+        width: 40%;
+        border: none;
+        
     }
    
 }
