@@ -22,6 +22,10 @@ header{
 main{
     grid-area: main;
 }
+.labl{
+    display: inline;
+
+}
 
 .bg-img {
     background-image: url('img/monkey-3507317_1280.jpg');
@@ -51,7 +55,7 @@ main{
     justify-content: space-between;
     height: 70px;
     width: 100%;
-    padding: 4px;
+    padding: 4px ;
     background-color: #000000a8; 
     color: white; 
     position: sticky; 
@@ -60,21 +64,24 @@ main{
 
 .nav-cont {
     display: inline;
-    margin-left: 1em;
+    margin-left: 2em;
     color: white;  
 }
 .nav-cont a {
     color: white;
     text-decoration: none;
     display: none;
+    
 }
 
 .nav-cont a:hover {
     color: rgba(240, 255, 255, 0.535);
 }
 
-.keyword{
+.search{
     display: none;
+   
+    
 }
 
 .logoG {
@@ -88,9 +95,7 @@ main{
     color: #ffffff;
 }
 
-/* #search-bar {
-    margin-right: 5px;
-} */
+
 
 .search{
     display: none;
@@ -119,17 +124,21 @@ main{
     grid-area: first;
     height: auto;
     border: 1px solid black;
+    max-height:525px;
+    
     
 }
 .bass {
     object-fit: cover;
     width: 100%;
+    height: 250px;
     overflow: hidden;
 }
 .second{
     grid-area: second;
     height: auto;
     border: 1px solid black;
+    max-height: 600px;
 }
 .guitar {
     object-fit: cover;
@@ -147,13 +156,15 @@ main{
 
 .bass-text {
     text-align: center;
-    margin: 4px;
+    margin: 5px;
+    
 }
 /* other set of img */
 .therd{
     grid-area: therd;
     height: auto;
     border: 1px solid black;
+    max-height: 600px;
     
 }
 .gibson {
@@ -163,12 +174,13 @@ main{
 }
 .gibson-text {
     text-align: center;
-    margin: 4px;
+    margin: 5px;
 }
 .fourth{
     grid-area: fourth;
     height: auto;
     border: 1px solid black;
+    max-height: 600px;
 }
 .guitar-tiger {
     object-fit: cover;
@@ -190,7 +202,7 @@ main{
     padding: 10px;
     text-align: center;
 }
-input {
+.wisaa {
     display: block;
     margin: 10px;
 }
@@ -206,6 +218,23 @@ footer{
     font-weight: 100;
     font-family: sans-serif;
     font-size: small;
+}
+@media (min-width: 960px){
+    .loda { 
+        grid-template-areas: 
+        'first  second therd  fourth';
+       gap: 20px; 
+       align-items: center;  
+    }
+    .nav-cont a{
+        display: contents;
+    }
+    .search{
+        display: contents;
+       
+        
+        
+    }
 }
 
  
