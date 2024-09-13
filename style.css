@@ -11,6 +11,11 @@
     font-family: bold;
     src: url(Poppins/Poppins-Bold.ttf);
 }
+
+@font-face {
+    font-family: mhy;
+    src: url(Caveat,Playwrite_CU/Caveat/Caveat-VariableFont_wght.ttf);
+}
 body{
     font-family: poppins;
     font-size: .8rem;
@@ -44,9 +49,8 @@ main{
     background-repeat: no-repeat;
     background-size: auto;
     margin: 0 0 0 0;
-    position: relative;
-    
-    
+    position: relative; 
+    box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.471);  
 }
 
 #container{
@@ -68,6 +72,7 @@ main{
     background-color: #000000a8; 
     color: white; 
     position: sticky; 
+    box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.655);
     
 }
 
@@ -96,13 +101,13 @@ h2{
     margin-left: 10px;
 }
 .logoG {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #f50000;
-    font-family:bold;
+    font-family:mhy;
 }
 .logoW{
     display: block;
-    font-size: 19px;
+    font-size: 1.5rem;
     margin-left: 40px;
     font-style: italic;
     color: #ffffff;
