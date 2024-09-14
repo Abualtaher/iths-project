@@ -66,9 +66,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
+    height: auto;
     width: 100%;
-    padding: 4px ;
+    padding: 9px ;
     background-color: #000000a8; 
     color: white; 
     position: sticky; 
@@ -248,7 +248,7 @@ h2{
     color: white;
     padding: 10px;
     text-align: center;
-    transition:all 1s ease;
+    
     
 }
 .wisaa {
@@ -295,6 +295,7 @@ footer{
     .bass{
         width: 250px;
         height: 250px;
+        
     }
 
     .collection{
@@ -303,10 +304,12 @@ footer{
     .loda {
         margin-bottom: 70px;
         
+        
     }
     .guitar{
         width: 250px;
         height: 250px;
+        transition:all 2ms ease-in;
     }
 
     .bass:hover {
@@ -325,10 +328,13 @@ footer{
 
     .therd{
         height: auto;
+        
     }
     .gibson{
         width: 250px;
         height: 250px;
+
+        
         
        
     }
