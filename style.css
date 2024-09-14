@@ -271,7 +271,8 @@ footer{
 @media (min-width: 960px){
     .loda { 
         grid-template-areas: 
-        'first  second therd  fourth';
+        'first  second therd  fourth'
+        'fifth six seven eaighyt';
        gap: 10px; 
        align-items: center;  
     }
@@ -339,6 +340,18 @@ footer{
     .fourth{
         height: auto;
     }
+    .fifth{
+        height: auto;
+    }
+    .six{
+        height: auto;
+    }
+    .seven{
+        height: auto;
+    }
+    .eaighyt{
+        height: auto;
+    }
 
     .guitar-tiger {
         width: 250px;
@@ -350,19 +363,27 @@ footer{
         height: 100%;
     }
 
-    fieldset{
+   fieldset{
        
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        margin-left: 470px;
-        width: 40%;
+        justify-content: center;
+        text-align: left;
+        width: 100%;
         border: none; 
     }
-    legend{
-        text-align: left;
-        margin-left: 148px;
+    legend {
+        text-align: center;
     }
 
+    .contact .inf {
+        justify-content: center;
+    }
+
+    .contact {
+        align-items: center;
+        justify-content: center;
+    } 
  
 }
