@@ -290,11 +290,12 @@ footer{
         margin-bottom: 20px;
     }
     .first {
-        height: auto
+        height: auto;
     }
     .bass{
         width: 250px;
         height: 250px;
+        cursor: pointer;
         
     }
 
@@ -310,11 +311,12 @@ footer{
         width: 250px;
         height: 250px;
         transition:all 2ms ease-in;
+        cursor: pointer;
     }
 
     .bass:hover {
-        width: 100%;
-        height: 80%;
+        width: 80%;
+        height: auto;
     }
 
     .second{
@@ -333,6 +335,7 @@ footer{
     .gibson{
         width: 250px;
         height: 250px;
+        cursor: pointer;
 
         
         
@@ -362,6 +365,7 @@ footer{
     .guitar-tiger {
         width: 250px;
         height: 250px;
+        cursor: pointer;
     }
 
     .guitar-tiger:hover {
