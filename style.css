@@ -1,131 +1,124 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @font-face {
-    font-family: new;
-    src: url(Nanum_Gothic/NanumGothic-Regular.ttf);
+  font-family: new;
+  src: url(Nanum_Gothic/NanumGothic-Regular.ttf);
 }
 @font-face {
-    font-family: bold;
-    src: url(Nanum_Gothic/NanumGothic-Bold.ttf);
+  font-family: bold;
+  src: url(Nanum_Gothic/NanumGothic-Bold.ttf);
 }
 
 @font-face {
-    font-family: mhy;
-    src: url(Caveat,Playwrite_CU/Caveat/Caveat-VariableFont_wght.ttf);
+  font-family: mhy;
+  src: url(CaveatPlaywrite_CU/Caveat/Caveat-VariableFont_wght.ttf);
 }
-body{
-    font-family: new;
-    font-size: .8rem;
-    line-height: 1rem;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    'header'
-    'main'
-    'footer'
-    ;
-    
-    background-color: rgb(244, 240, 240);
-}
-header{
-    grid-area: header;
-}
-main{
-    grid-area: main;
-}
-.labl{
-    display: inline;
+body {
+  font-family: new;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 
+  background-color: rgb(244, 240, 240);
+}
+header {
+  grid-area: header;
+}
+main {
+  grid-area: main;
+}
+.labl {
+  display: inline;
 }
 
 .bg-img {
-    background-image: url('img/monkey-3507317_1280.jpg');
-    min-height: 200px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin: 0 0 0 0;
-    position: relative; 
-    box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.471);  
+  background-image: url("img/monkey-3507317_1280.jpg");
+  min-height: 200px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0 0 0 0;
+  position: relative;
+  box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.471);
 }
 
-#container{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    overflow: hidden;
-    object-fit: cover;
-    
+#container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  object-fit: cover;
 }
 
-#container nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: auto;
-    width: 100%;
-    padding: 9px ;
-    background-color: #000000a8; 
-    color: white; 
-    position: sticky; 
-    box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.655);
-    
+#container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  padding: 9px;
+  background-color: #000000a8;
+  color: white;
+  position: sticky;
+  box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.655);
 }
 
 .nav-cont {
-    display: inline;
-    margin-left: 2em;
-    color: white;  
+  display: inline;
+  margin-left: 2em;
+  color: white;
 }
 .nav-cont a {
-    color: white;
-    text-decoration: none;
-    display: none;
-    
+  color: white;
+  text-decoration: none;
+  display: none;
 }
 
 .nav-cont a:hover {
-    color: rgba(240, 255, 255, 0.535);
+  color: rgba(240, 255, 255, 0.535);
 }
 
-.search{
-    display: none;
-   
-    
+.search {
+  display: none;
 }
-h2{
-    margin-left: 10px;
+h2 {
+  margin-left: 10px;
 }
 .logoG {
-    font-size: 2.5rem;
-    color: #f50000;
-    font-family:mhy;
+  font-size: 2.5rem;
+  color: #f50000;
+  font-family: mhy;
 }
-.logoW{
-    display: block;
-    font-size: 1.5rem;
-    margin-left: 40px;
-    font-style: italic;
-    color: #ffffff;
+.logoW {
+  display: block;
+  font-size: 1.5rem;
+  margin-left: 40px;
+  font-style: italic;
+  color: #ffffff;
 }
 
 .loda {
-    display: grid;
-    grid-template-columns: auto ;
-    grid-template-areas: 
-    'first  second'
-    'therd  fourth'
-    'fifth  six'
-    'seven  eaighyt';
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    margin: 5px auto;
-    width: 90%;   
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "first  second"
+    "therd  fourth"
+    "fifth  six"
+    "seven  eaighyt";
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px auto;
+  width: 90%;
 }
 
 /* .loda img {
@@ -133,267 +126,245 @@ h2{
     height: 10px
 } */
 
-
-.collection{
-    text-align: center;
-    padding: 20px;
-    color: #6a040f;
-    font-family: bold;
-    font-size: 1.8rem;
+.collection {
+  text-align: center;
+  padding: 20px;
+  color: #6a040f;
+  font-family: bold;
+  font-size: 1.8rem;
 }
 
-.first{
-    grid-area: first;
-    border: 1px solid black;
-    height:500px;
-    align-items: center;
-    /* transition:all 2s ease-in;  */
+.first {
+  grid-area: first;
+  border: 1px solid black;
+  height: 500px;
+  align-items: center;
+  /* transition:all 2s ease-in;  */
 }
 .bass {
-    object-fit: cover;
-    width: 130px;
-    height: 320px;
-    overflow: hidden;
-    align-items: center;
+  object-fit: cover;
+  width: 130px;
+  height: 320px;
+  overflow: hidden;
+  align-items: center;
 }
-.second{
-    grid-area: second;
-    border: 1px solid black;
-    height: 500px;
+.second {
+  grid-area: second;
+  border: 1px solid black;
+  height: 500px;
 }
 .guitar {
-    object-fit: cover;
-    width: 165px;
-    height: 320px;
-    padding: 5px;
-    overflow: hidden;
+  object-fit: cover;
+  width: 165px;
+  height: 320px;
+  padding: 5px;
+  overflow: hidden;
 }
 
 .guitar-text {
-    text-align: center;
-    margin: 4px;
-    overflow: hidden;
-    
+  text-align: center;
+  margin: 4px;
+  overflow: hidden;
 }
 
 .bass-text {
-    text-align: center;
-    margin: 4px;
-    
+  text-align: center;
+  margin: 4px;
 }
 /* other set of img */
-.therd{
-    grid-area: therd;
-    height: 500px;
-    border: 1px solid black;
-    
-    
+.therd {
+  grid-area: therd;
+  height: 500px;
+  border: 1px solid black;
 }
 .gibson {
-    object-fit: cover;
-    width: 170px;
-    overflow: hidden;
+  object-fit: cover;
+  width: 170px;
+  overflow: hidden;
 }
 .gibson-text {
-    text-align: center;
-    margin: 4px;
+  text-align: center;
+  margin: 4px;
 }
-.fourth{
-    grid-area: fourth;
-    height: 500px;
-    border: 1px solid black;
-    
+.fourth {
+  grid-area: fourth;
+  height: 500px;
+  border: 1px solid black;
 }
 .guitar-tiger {
-    object-fit: cover;
-    width: 180px;
-    overflow: hidden;
+  object-fit: cover;
+  width: 180px;
+  overflow: hidden;
 }
 
 .tiger-text {
-    text-align: center;
-    margin: 4px; 
+  text-align: center;
+  margin: 4px;
 }
 
-.fifth{
-    grid-area: fifth;
-    border: 1px solid black;
-    height:500px;
-    align-items: center;
-    /* transition:all 2s ease-in;  */
+.fifth {
+  grid-area: fifth;
+  border: 1px solid black;
+  height: 500px;
+  align-items: center;
+  /* transition:all 2s ease-in;  */
 }
-.six{
-    grid-area: six;
-    border: 1px solid black;
-    height: 500px;
-}
-
-.seven{
-    grid-area: seven;
-    height: 500px;
-    border: 1px solid black;  
+.six {
+  grid-area: six;
+  border: 1px solid black;
+  height: 500px;
 }
 
-.eaighyt{
-    grid-area: eaighyt;
-    height: 500px;
-    border: 1px solid black;
+.seven {
+  grid-area: seven;
+  height: 500px;
+  border: 1px solid black;
 }
 
+.eaighyt {
+  grid-area: eaighyt;
+  height: 500px;
+  border: 1px solid black;
+}
 
-.contact{
-    width: 100%;
-    height: auto;
-    background-color: #5d1401;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    
-    
+.contact {
+  width: 100%;
+  height: auto;
+  background-color: #5d1401;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 .wisaa {
-    display: block;
-    margin: 10px;
+  display: block;
+  margin: 10px;
 }
 
-textarea{
-    display: block;
-    margin: 10px;
+textarea {
+  display: block;
+  margin: 10px;
 }
 
-footer{
-    margin: 10px 0 20px;
+footer {
+  margin: 10px 0 20px;
+  text-align: center;
+  font-weight: 100;
+  font-family: sans-serif;
+  font-size: small;
+}
+@media (min-width: 960px) {
+  .loda {
+    grid-template-areas:
+      "first  second therd  fourth"
+      "fifth six seven eaighyt";
+    gap: 10px;
+    align-items: center;
+  }
+  .nav-cont a {
+    display: contents;
+  }
+  .search {
+    display: contents;
+  }
+  .bg-img {
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  .first {
+    height: auto;
+  }
+  .bass {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+  }
+
+  .collection {
+    margin-bottom: 20px;
+  }
+  .loda {
+    margin-bottom: 70px;
+  }
+  .guitar {
+    width: 250px;
+    height: 250px;
+    transition: all 2ms ease-in;
+    cursor: pointer;
+  }
+
+  .bass:hover {
+    width: 80%;
+    height: auto;
+  }
+
+  .second {
+    height: auto;
+  }
+
+  .guitar:hover {
+    width: 80%;
+    height: 100%;
+  }
+
+  .therd {
+    height: auto;
+  }
+  .gibson {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+  }
+  .gibson:hover {
+    width: 100%;
+    height: 100%;
+  }
+
+  .fourth {
+    height: auto;
+  }
+  .fifth {
+    height: auto;
+  }
+  .six {
+    height: auto;
+  }
+  .seven {
+    height: auto;
+  }
+  .eaighyt {
+    height: auto;
+  }
+
+  .guitar-tiger {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+  }
+
+  .guitar-tiger:hover {
+    width: 100%;
+    height: 100%;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    border: none;
+  }
+  legend {
     text-align: center;
-    font-weight: 100;
-    font-family: sans-serif;
-    font-size: small;
-}
-@media (min-width: 960px){
-    .loda { 
-        grid-template-areas: 
-        'first  second therd  fourth'
-        'fifth six seven eaighyt';
-       gap: 10px; 
-       align-items: center;  
-    }
-    .nav-cont a{
-        display: contents;
-    }
-    .search{
-        display: contents;
-       
-        
-        
-    }
-    .bg-img{
-        background-size: cover;
-        margin-bottom: 20px;
-    }
-    .first {
-        height: auto;
-    }
-    .bass{
-        width: 250px;
-        height: 250px;
-        cursor: pointer;
-        
-    }
+  }
 
-    .collection{
-        margin-bottom: 20px;
-    }
-    .loda {
-        margin-bottom: 70px;
-        
-        
-    }
-    .guitar{
-        width: 250px;
-        height: 250px;
-        transition:all 2ms ease-in;
-        cursor: pointer;
-    }
+  .contact .inf {
+    justify-content: center;
+  }
 
-    .bass:hover {
-        width: 80%;
-        height: auto;
-    }
-
-    .second{
-        height: auto;
-    }
-
-    .guitar:hover {
-        width: 80%;
-        height: 100%;
-    }
-
-    .therd{
-        height: auto;
-        
-    }
-    .gibson{
-        width: 250px;
-        height: 250px;
-        cursor: pointer;
-
-        
-        
-       
-    }
-    .gibson:hover {
-        width: 100%;
-        height: 100%;
-    }
-
-    .fourth{
-        height: auto;
-    }
-    .fifth{
-        height: auto;
-    }
-    .six{
-        height: auto;
-    }
-    .seven{
-        height: auto;
-    }
-    .eaighyt{
-        height: auto;
-    }
-
-    .guitar-tiger {
-        width: 250px;
-        height: 250px;
-        cursor: pointer;
-    }
-
-    .guitar-tiger:hover {
-        width: 100%;
-        height: 100%;
-    }
-
-   fieldset{
-       
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        text-align: left;
-        width: 100%;
-        border: none; 
-    }
-    legend {
-        text-align: center;
-    }
-
-    .contact .inf {
-        justify-content: center;
-    }
-
-    .contact {
-        align-items: center;
-        justify-content: center;
-    } 
- 
+  .contact {
+    align-items: center;
+    justify-content: center;
+  }
 }
