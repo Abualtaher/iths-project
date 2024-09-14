@@ -123,6 +123,7 @@ h2{
     'seven  eaighyt';
     gap: 8px;
     align-items: center;
+    justify-content: center;
     margin: 5px auto;
     width: 90%;   
 }
@@ -213,6 +214,33 @@ h2{
     text-align: center;
     margin: 4px; 
 }
+
+.fifth{
+    grid-area: fifth;
+    border: 1px solid black;
+    height:500px;
+    align-items: center;
+    /* transition:all 2s ease-in;  */
+}
+.six{
+    grid-area: six;
+    border: 1px solid black;
+    height: 500px;
+}
+
+.seven{
+    grid-area: seven;
+    height: 500px;
+    border: 1px solid black;  
+}
+
+.eaighyt{
+    grid-area: eaighyt;
+    height: 500px;
+    border: 1px solid black;
+}
+
+
 .contact{
     width: 100%;
     height: auto;
