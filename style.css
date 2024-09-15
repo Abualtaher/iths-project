@@ -39,6 +39,11 @@ main {
   display: inline;
 }
 
+#search-bar {
+  height: 20px;
+  width: 80px;
+}
+
 .bg-img {
   background-image: url("img/monkey-3507317_1280.jpg");
   min-height: 200px;
@@ -80,6 +85,7 @@ main {
 .nav-cont a {
   color: white;
   text-decoration: none;
+  font-size: 1.2rem;
   display: none;
 }
 
@@ -94,13 +100,13 @@ h2 {
   margin-left: 10px;
 }
 .logoG {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #f50000;
   font-family: mhy;
 }
 .logoW {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-left: 40px;
   font-style: italic;
   color: #ffffff;
@@ -361,5 +367,9 @@ footer {
   .contact {
     align-items: center;
     justify-content: center;
+  }
+
+  .logoG {
+    font-size: ;
   }
 }
