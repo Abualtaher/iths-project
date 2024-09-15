@@ -43,7 +43,8 @@ main {
   height: 20px;
   width: 80px;
 }
-
+.hamburgar {
+}
 .bg-img {
   background-image: url("img/monkey-3507317_1280.jpg");
   min-height: 200px;
@@ -111,6 +112,13 @@ h2 {
   margin-left: 40px;
   font-style: italic;
   color: #ffffff;
+}
+
+.bar {
+  height: 2px;
+  width: 25px;
+  background-color: white;
+  margin: 5px 0;
 }
 
 .main-text {
@@ -378,5 +386,8 @@ footer {
 
   .logoG {
     font-size: ;
+  }
+  .hamburgar {
+    display: none;
   }
 }
