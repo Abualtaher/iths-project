@@ -99,6 +99,7 @@ main {
 h2 {
   margin-left: 10px;
 }
+
 .logoG {
   font-size: 2rem;
   color: #f50000;
@@ -110,6 +111,12 @@ h2 {
   margin-left: 40px;
   font-style: italic;
   color: #ffffff;
+}
+
+.main-text {
+  text-align: justify;
+  margin: 3px 8px 8px 8px;
+  line-height: 1.5rem;
 }
 
 .loda {
