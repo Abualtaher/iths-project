@@ -21,6 +21,8 @@
   font-family: mhy;
   src: url(CaveatPlaywrite_CU/Caveat/Caveat-VariableFont_wght.ttf);
 }
+
+/* my lay out for the whole body layout */
 body {
   font-family: new;
   font-size: 0.8rem;
@@ -61,7 +63,7 @@ main {
   position: relative;
   box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.471);
 }
-
+/* id comtainer is for the first pic and how it is laed */
 #container {
   position: fixed;
   width: 100%;
@@ -131,7 +133,7 @@ h2 {
   margin: 3px 8px 8px 8px;
   line-height: 1.5rem;
 }
-
+/* loda are the grid of how my pic layout going to be in a mobile screen */
 .loda {
   display: grid;
   grid-template-columns: auto;
