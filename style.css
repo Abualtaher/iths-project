@@ -404,6 +404,8 @@ footer {
   .logoG {
     font-size: ;
   }
+
+  /* .hamburgar are the menu */
   .hamburgar {
     display: none;
   }
