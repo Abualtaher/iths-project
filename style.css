@@ -161,7 +161,6 @@ h2 {
   border: 1px solid black;
   height: 500px;
   align-items: center;
-  /* transition:all 2s ease-in;  */
 }
 .bass {
   object-fit: cover;
@@ -193,7 +192,7 @@ h2 {
   text-align: center;
   margin: 4px;
 }
-/* other set of img */
+
 .therd {
   grid-area: therd;
   height: 500px;
