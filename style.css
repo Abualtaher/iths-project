@@ -340,7 +340,6 @@ footer {
   }
   .navbarli {
     display: contents;
-    align-content: end;
   }
   a {
     margin-right: 0 0 0 0;
@@ -357,13 +356,13 @@ footer {
     background-size: cover;
     margin-bottom: 20px;
   }
-  .first {
+  /* .first {
     height: auto;
-  }
+  } */
 
   .bass {
     width: 100%;
-    /* height: 250px; */
+    height: 340px;
     cursor: pointer;
     transition: height 100ms ease-in;
   }
@@ -376,7 +375,7 @@ footer {
   }
   .guitar {
     width: 100%;
-    height: 320px;
+    height: 340px;
     transition: all 100ms ease-in;
     cursor: pointer;
   }
@@ -414,7 +413,7 @@ footer {
     filter: brightness(80%);
   }
 
-  .fourth {
+  /* .fourth {
     height: auto;
   }
   .fifth {
@@ -428,7 +427,7 @@ footer {
   }
   .eaighyt {
     height: auto;
-  }
+  } */
 
   .guitar-tiger {
     width: 100%;
@@ -463,10 +462,6 @@ footer {
   .contact {
     align-items: center;
     justify-content: center;
-  }
-
-  .logoG {
-    font-size: ;
   }
 
   /* .hamburgar are the menu */
