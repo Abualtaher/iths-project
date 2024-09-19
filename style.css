@@ -51,6 +51,8 @@ main {
   width: 80px;
 }
 .hamburgar {
+  display: block;
+  margin-right: 8%;
 }
 .bg-img {
   background-image: url("img/monkey-3507317_1280.jpg");
@@ -70,6 +72,7 @@ main {
   top: 0;
   overflow: hidden;
   object-fit: cover;
+  text-decoration: none;
 }
 
 #container nav {
@@ -83,21 +86,39 @@ main {
   color: white;
   position: sticky;
   box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.655);
+  text-decoration: none;
 }
 
-.nav-cont {
-  display: inline;
-  margin-left: 2em;
+nav-cont {
+  text-decoration: none;
+}
+
+.navbarLi {
+  display: block;
+  /* margin-left: 0.8em; */
   color: white;
+  transform: translateX(100%);
+  position: fixed;
+  top: 4em;
+  left: 0em;
+  background-color: rgba(4, 4, 0, 0.515);
+  width: 100%;
+  height: auto;
+  line-height: 2em;
+  text-decoration: none;
 }
 .nav-cont a {
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
-  display: none;
+  font-size: 1rem;
+  /* display: none; */
+  text-align-last: right;
+  margin-right: 3%;
+  display: block;
 }
 
 .nav-open {
+  height: auto;
   transform: translate(0) !important;
 }
 
