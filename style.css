@@ -95,7 +95,6 @@ nav-cont {
 
 .navbarli {
   display: block;
-  /* margin-left: 0.8em; */
   color: white;
   transform: translateX(100%);
   position: fixed;
@@ -103,16 +102,17 @@ nav-cont {
   left: 0em;
   background-color: rgba(4, 4, 0, 0.515);
   width: 100%;
-  height: auto;
   line-height: 2em;
   text-decoration: none;
 }
 .nav-cont a {
-  /* color: white; */
+  margin-left: 10px;
+  color: white;
   list-style-type: none;
   font-size: 1rem;
-  /* display: none; */
-  text-align-last: right;
+  display: none;
+  text-align: start;
+  text-decoration: none;
   margin-right: 3%;
   display: block;
 }
@@ -339,9 +339,18 @@ footer {
     gap: 10px;
     align-items: center;
   }
-  .nav-cont a {
+  .navbarli {
     display: contents;
+    align-content: end;
   }
+  a {
+    margin-right: 0 0 0 0;
+  }
+  .nav-cont {
+    display: contents;
+    margin: 0;
+  }
+
   .search {
     display: contents;
   }
