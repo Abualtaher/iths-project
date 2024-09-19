@@ -93,7 +93,7 @@ nav-cont {
   text-decoration: none;
 }
 
-.navbarLi {
+.navbarli {
   display: block;
   /* margin-left: 0.8em; */
   color: white;
@@ -108,8 +108,8 @@ nav-cont {
   text-decoration: none;
 }
 .nav-cont a {
-  color: white;
-  text-decoration: none;
+  /* color: white; */
+  list-style-type: none;
   font-size: 1rem;
   /* display: none; */
   text-align-last: right;
