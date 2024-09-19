@@ -97,6 +97,10 @@ main {
   display: none;
 }
 
+.nav-open {
+  transform: translate(0) !important;
+}
+
 .nav-cont a:hover {
   color: rgba(240, 255, 255, 0.535);
 }
